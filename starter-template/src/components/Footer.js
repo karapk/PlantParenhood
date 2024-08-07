@@ -3,12 +3,16 @@ import { useRouter } from "next/router";
 
 const Footer = () => {
 return (
-    <>
-    Example Footer
-    <Typography variant="p" color={"primary.dark"}>
-              © 2023 Garden Project
-            </Typography>
-    </>
+  <footer>
+  THIS IS OUR FOOTER -----------------------------  
+  Contact Us
+  ph. (405) 951-1234
+  email plantparenthood@robotswholikeplants.com
+  ABOUT US
+  <p style={{ color: '#1976d2' }}>
+    © 2024 Plant Plant Parent Hood
+  </p>
+</footer>
     
 );
 };
